@@ -1,0 +1,10 @@
+{
+  "include": ["src"], // src 폴더의 모든 파일을 타입스크립트가 확인함.
+  "compilerOptions": {
+    // 컴파일한 파일을 어느 폴더에 만들지 지정
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6", "DOM"],
+    "strict": true // strict 모드에서는 엄격한 보호 장치가 운용됨
+  }
+}

@@ -1,7 +1,5 @@
-import { init, exit } from "myPackage";
+import { init, exit } from "./myPackage";
 
-init({
-  url: "true",
-});
+init([true, "www"]);
 
 exit(1);
